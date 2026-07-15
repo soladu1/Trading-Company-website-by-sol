@@ -37,10 +37,10 @@ const newsItems = [
   {
     title: "How industrial supply chains drive growth",
     titleAm: "የኢንዱስትሪ አቅርቦት ሰንሰለቶች እድገትን እንዴት ያፋጥናሉ",
-    date: "Jun 25, 2026",
-    dateAm: "ሰኔ 25፣ 2026",
-    category: "Industry Insights",
-    categoryAm: "የኢንዱስትሪ ግንዛቤ",
+    // date: "Jun 25, 2026",
+    // dateAm: "ሰኔ 25፣ 2026",
+    // category: "Industry Insights",
+    // categoryAm: "የኢንዱስትሪ ግንዛቤ",
     image: "assets/images/blog/1.jpg",
     body: `Strong industrial supply chains are the backbone of economic development. When businesses can reliably source raw materials, machinery, and energy equipment, they can plan production cycles with confidence, reduce downtime, and respond faster to market demand.
 
@@ -60,10 +60,10 @@ Looking ahead, digitalization and real-time tracking are set to further transfor
   {
     title: "Why sustainable energy solutions matter now",
     titleAm: "ዘላቂ የኢነርጂ መፍትሄዎች አሁን ለምን አስፈላጊ ናቸው",
-    date: "Jun 18, 2026",
-    dateAm: "ሰኔ 18፣ 2026",
-    category: "Energy",
-    categoryAm: "ኢነርጂ",
+    // date: "Jun 18, 2026",
+    // dateAm: "ሰኔ 18፣ 2026",
+    // category: "Energy",
+    // categoryAm: "ኢነርጂ",
     image: "assets/images/blog/2.jpg",
     body: `The global shift toward sustainable energy is no longer a distant ambition—it is an urgent operational reality for industries across Africa and beyond. Rising fuel costs, grid instability, and increasing environmental expectations are pushing businesses to rethink how they power their operations.
 
@@ -83,10 +83,10 @@ Investing in sustainable energy today is not just good for the environment—it 
   {
     title: "AAMT's approach to reliable machinery support",
     titleAm: "ኤኤምቲ ለአስተማማኝ የማሽነሪ ድጋፍ ያለው አቀራረብ",
-    date: "Jun 10, 2026",
-    dateAm: "ሰኔ 10፣ 2026",
-    category: "Operations",
-    categoryAm: "ሥራ አፈጻጸም",
+    // date: "Jun 10, 2026",
+    // dateAm: "ሰኔ 10፣ 2026",
+    // category: "Operations",
+    // categoryAm: "ሥራ አፈጻጸም",
     image: "assets/images/blog/3.jpg",
     body: `Industrial machinery is only as valuable as the support infrastructure around it. A piece of equipment that sits idle due to poor installation, lack of spare parts, or inadequate training quickly becomes a liability rather than an asset.
 
@@ -1110,11 +1110,11 @@ function FooterSection() {
         <div className="container text-center">
           <p
             className="mb-0"
-            data-en='Copyright © 2026 AAMT Trading PLC — Developed by <a href="https://solsportfolio.netlify.app/">Solomon Adugna</a>'
-            data-am='የቅጂ መብት © 2026 ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ — በ <a href="https://solsportfolio.netlify.app/">ሰለሞን አዱኛ</a> የተገነባ'
+            data-en='Copyright © 2026 AAMT Trading PLC — Developed by <a href="https://solportifolio.vercel.app/">Solomon Adugna</a>'
+            data-am='የቅጂ መብት © 2026 ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ — በ <a href="https://solportifolio.vercel.app/">ሰለሞን አዱኛ</a> የተገነባ'
           >
             Copyright © 2026 AAMT Trading PLC — Developed by{" "}
-            <a href="https://solsportfolio.netlify.app/">Solomon Adugna</a>
+            <a href="https://solportifolio.vercel.app/">Solomon Adugna</a>
           </p>
         </div>
       </div>
