@@ -9,99 +9,87 @@ const navItems = [
 const services = [
   {
     icon: "lni lni-capsule",
-    title: "Supply of Raw Materials & Finished Products",
-    titleAm: "ጥሬ ዕቃዎች እና ያለቁ ምርቶች አቅርቦት",
-    text: "We supply high-quality raw materials and finished products to meet diverse industrial needs, including premium plastics, durable pipes, essential materials for the food and agro industry, and top-grade petrochemical products.",
+    title: "Technology Products & Digital Infrastructure",
+    titleAm: "የቴክኖሎጂ ምርቶች እና ዲጂታል መሠረተ ልማት",
+    text: "We deliver high-performance technology products and reliable infrastructure support that help businesses modernize operations, strengthen connectivity, and scale with confidence.",
     textAm:
-      "ፕሪሚየም ፕላስቲኮችን፣ ረጅም ጊዜ የሚቆዩ ቧንቧዎችን፣ ለምግብ እና ለግብርና ኢንዱስትሪ አስፈላጊ የሆኑ ቁሳቁሶችን እና ከፍተኛ ደረጃ ያላቸውን የፔትሮኬሚካል ምርቶችን ጨምሮ የተለያዩ የኢንዱስትሪ ፍላጎቶችን ለማሟላት ከፍተኛ ጥራት ያላቸውን ጥሬ ዕቃዎችን እና ያለቁ ምርቶችን እናቀርባለን።",
+      "ከፍተኛ የስራ አፈጻጸም ያላቸውን ቴክኖሎጂ ምርቶች እና አስተማማኝ የመሠረተ ልማት ድጋፎች በመስጠት ድርጅቶች ሥራቸውን እንዲያሻሽሉ፣ ግንኙነትን እንዲጠናከሩ እና በእርግጠኝነት እንዲያድጉ እንረዳለን።",
   },
   {
     icon: "lni lni-bootstrap",
-    title: "Supply of Industrial Machinery",
-    titleAm: "የኢንዱስትሪ ማሽነሪዎች አቅርቦት",
-    text: "We provide comprehensive industrial machinery solutions, including the supply, installation, and commissioning of high-performance equipment. Our services ensure seamless integration and optimal performance.",
+    title: "Integrated Implementation & Project Delivery",
+    titleAm: "የተቀናጀ አተገባበር እና የፕሮጀክት አቅርቦት",
+    text: "We provide end-to-end solutions that combine planning, implementation, support, and commissioning so every project is delivered with precision and lasting value.",
     textAm:
-      "ከፍተኛ አፈጻጸም ያላቸውን መሳሪያዎች አቅርቦት፣ ተከላ እና ስራ ማስጀመርን ጨምሮ አጠቃላይ የኢንዱስትሪ ማሽነሪ መፍትሄዎችን እናቀርባለን። አገልግሎቶቻችን እንከን የለሽ ውህደት እና ጥሩ አፈጻጸምን ያረጋግጣሉ።",
+      "እቅድ ማውጣት፣ ተግባራዊ ማድረግ፣ ድጋፍ እና ስራ ማስጀመርን በማዋሃድ እያንዳንዱ ፕሮጀክት በትክክለኛ እና ዘላቂ ዋጋ ሆኖ እንዲደርስ መፍትሄዎችን እናቀርባለን።",
   },
   {
     icon: "lni lni-shortcode",
-    title: "Supply of Electrical Equipment & Solar Energy",
-    titleAm: "የኤሌክትሪክ ዕቃዎች እና የፀሐይ ኃይል አቅርቦት",
-    text: "We supply electrical equipment and solar energy solutions, including generators, transformers, cables, solar panels, lanterns, and batteries. Our services include installation, testing, and commissioning.",
+    title: "Smart Energy & Connected Systems",
+    titleAm: "ስማርት ኢነርጂ እና የተገናኙ ስርዓቶች",
+    text: "We design and deliver smart energy, automation, and connected infrastructure solutions that improve efficiency, resilience, and long-term performance.",
     textAm:
-      "ጄነሬተሮችን፣ ትራንስፎርመሮችን፣ ኬብሎችን፣ የፀሐይ ፓነሎችን፣ ፋኖሶችን እና ባትሪዎችን ጨምሮ የኤሌክትሪክ መሳሪያዎችን እና የፀሐይ ኃይል መፍትሄዎችን እናቀርባለን። አገልግሎቶቻችን ተከላ፣ ሙከራ እና ስራ ማስጀመርን ያካትታሉ።",
+      "ስማርት ኢነርጂ፣ አውቶሜሽን እና የተገናኙ መሠረተ ልማት መፍትሄዎችን በንድፍ እና በአቅርቦት ወደ ቀጣይ የሥራ ውጤታማነት፣ ተቋቋሚነት እና የረዥም ጊዜ አፈጻጸም እንዲሄዱ እንረዳለን።",
   },
 ];
 
 const newsItems = [
   {
-    title: "How industrial supply chains drive growth",
-    titleAm: "የኢንዱስትሪ አቅርቦት ሰንሰለቶች እድገትን እንዴት ያፋጥናሉ",
-    // date: "Jun 25, 2026",
-    // dateAm: "ሰኔ 25፣ 2026",
-    // category: "Industry Insights",
-    // categoryAm: "የኢንዱስትሪ ግንዛቤ",
+    title: "How modern technology accelerates business growth",
+    titleAm: "ዘመናዊ ቴክኖሎጂ ንግድ እድገትን እንዴት ያፋጥናል",
     image: "assets/images/blog/1.jpg",
-    body: `Strong industrial supply chains are the backbone of economic development. When businesses can reliably source raw materials, machinery, and energy equipment, they can plan production cycles with confidence, reduce downtime, and respond faster to market demand.
+    body: `Technology is no longer a support function—it is a growth engine. When organizations invest in reliable digital infrastructure, smart systems, and implementation support, they can respond faster to change and build stronger operations.
 
-At AAMT Trading PLC, we have seen firsthand how a well-managed supply chain creates a ripple effect—factories run more efficiently, delivery timelines shrink, and client satisfaction rises. By partnering with trusted international suppliers and maintaining local inventory buffers, we help our clients avoid the disruptions that derail growth.
+At YENOB Technologies plc, we work with organizations that want practical transformation backed by dependable delivery, modern tools, and measurable outcomes. From planning to execution, we help our clients turn ambitious ideas into functional solutions.
 
-Key factors that strengthen industrial supply chains include transparent supplier relationships, robust logistics networks, and proactive procurement planning. Companies that invest in these areas consistently outperform those that treat supply chain management as an afterthought.
+The strongest results come from combining clear strategy, expert execution, and long-term support. Businesses that prioritize these areas consistently improve efficiency, resilience, and customer confidence.
 
-Looking ahead, digitalization and real-time tracking are set to further transform how industrial goods move from manufacturer to end-user. AAMT is committed to staying at the forefront of these changes so our clients always have the edge they need.`,
-    bodyAm: `ጠንካራ የኢንዱስትሪ አቅርቦት ሰንሰለቶች የኢኮኖሚ ልማት መሠረቶች ናቸው። ንግዶች ጥሬ ዕቃዎችን፣ ማሽነሪዎችን እና የኢነርጂ መሣሪያዎችን በተአማኒነት ማቅረብ ሲችሉ፣ የምርት ዑደቶችን በተሻለ ሁኔታ ማቀድ፣ የቆም ጊዜን መቀነስ እና ለገበያ ፍላጎት በፍጥነት ምላሽ መስጠት ይቻላቸዋል።
+Looking ahead, connected platforms and intelligent systems will continue to reshape the way industries operate. YENOB Technologies is committed to staying ahead of that shift so our clients remain competitive and future-ready.`,
+    bodyAm: `ቴክኖሎጂ አሁን የድጋፍ ተግባር አይደለም — የእድገት ሞተር ነው። ድርጅቶች አስተማማኝ ዲጂታል መሠረተ ልማት፣ ስማርት ስርዓቶች እና የአተገባበር ድጋፍ በመባለ መልኩ ሲገቡ፣ ለለውጥ በፍጥነት ምላሽ መስጠት እና ጠንካራ ሥራ ስርዓቶችን መገንባት ይችላሉ።
 
-በኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ ሥራ ዘመናችን፣ በደንብ የሚተዳደር አቅርቦት ሰንሰለት እንደ ሰንሰለት ሪፕልን ውጤት እንደሚፈጥር ቀጥታ ምልከታ አድርገናል — ፋብሪካዎች በተሻለ ሁኔታ ይሠራሉ፣ የመላኪያ ጊዜዎች ይጠብባሉ፣ የደንበኛ እርካታም ከፍ ይላል። ታምኑ ዓለም አቀፍ አቅራቢዎች ጋር በመተባበር እና የአካባቢ ክምችት ይዞ በማቆየት፣ ደንበኞቻችን እድገትን ከሚያደናቅፉ ችግሮች እንዲድኑ እንረዳቸዋለን።
+በየኖብ ቴክኖሎጂስ ፕሊሲ ውስጥ በግልጽ ለውጥ እና በአስተማማኝ አቅርቦት ጋር መላውን ስራ ለመቀየር የሚፈልጉ ድርጅቶች ጋር እንሰራለን። ከእቅድ እስከ ተግባር ድረስ፣ ታላቅ ሐሳቦችን ወደ ተግባራዊ መፍትሄዎች በመለወጥ ረዳታችን እናበረታታለን።
 
-የኢንዱስትሪ አቅርቦት ሰንሰለቶችን ለማጠናከር ቁልፍ ምክንያቶች ግልፅ የአቅራቢ ግንኙነቶችን፣ ጠንካራ የሎጅስቲክስ አውታሮችን እና ቀድሞ የሚደረግ ግዥ እቅድ ያካትታሉ። በእነዚህ ዘርፎች ላይ ኢንቨስት የሚያደርጉ ኩባንያዎች የአቅርቦት ሰንሰለት አስተዳደርን ሁለተኛ ደረጃ አድርገው ከሚቆጥሩ ያሻለ አፈጻጸም ያስቀምጣሉ።
+በጣም ጥሩ ውጤቶች ከግልጽ ስትራቴጂ፣ የሙያ ትግበራ እና የረዥም ጊዜ ድጋፍ አንድ ላይ በመሆን ይመጣሉ። እነዚህን ቦታዎች በቅድሚያ የሚመለከቱ ንግዶች በተሻለ ሁኔታ ውጤታማነት፣ ተቋቋሚነት እና የደንበኛ እምነትን ያሳድጋሉ።
 
-ወደ ፊት ሲታይ፣ ዲጂታላይዜሽን እና ሪል-ታይም ትራኪንግ የኢንዱስትሪ ዕቃዎች ከአምራቹ እስከ ተጠቃሚው ድረስ የሚጓዙበትን ሁኔታ ይቀይሩታል። ኤኤምቲ ደንበኞቻቸው ሁልጊዜ ያስፈልጋቸውን ጥቅም እንዲያገኙ ከዚህ ለውጦች ፊት ለፊት ለመቆም ቁርጠኛ ነው።`,
+ወደ ፊት ሲታይ፣ የተገናኙ መድረኮች እና ስማርት ስርዓቶች የኢንዱስትሪ ሥራ መንገድን በቀጣይ ይለውጣሉ። የኖብ ቴክኖሎጂስ ይህንን ለውጥ ከፊት ለፊት ለመቆም ቁርጠኛ ነው።`,
   },
   {
-    title: "Why sustainable energy solutions matter now",
-    titleAm: "ዘላቂ የኢነርጂ መፍትሄዎች አሁን ለምን አስፈላጊ ናቸው",
-    // date: "Jun 18, 2026",
-    // dateAm: "ሰኔ 18፣ 2026",
-    // category: "Energy",
-    // categoryAm: "ኢነርጂ",
+    title: "Why resilient systems matter for modern operations",
+    titleAm: "ለዘመናዊ ሥራ ተቋቋሚ ስርዓቶች ለምን አስፈላጊ ናቸው",
     image: "assets/images/blog/2.jpg",
-    body: `The global shift toward sustainable energy is no longer a distant ambition—it is an urgent operational reality for industries across Africa and beyond. Rising fuel costs, grid instability, and increasing environmental expectations are pushing businesses to rethink how they power their operations.
+    body: `Reliable systems are the foundation of modern business performance. As organizations expand, the cost of downtime, poor connectivity, and inconsistent infrastructure becomes more visible and more expensive.
 
-Solar panels, battery storage systems, and energy-efficient generators offer a path to both cost savings and operational resilience. A manufacturing plant that pairs solar generation with a reliable battery bank, for example, can dramatically reduce its dependence on diesel generators and protect itself from utility outages.
+YENOB Technologies plc helps businesses strengthen that foundation with smart solutions, robust deployment, and dependable support. Whether the need is energy, connectivity, automation, or digital infrastructure, we build systems that stay stable and useful over time.
 
-AAMT Trading PLC supplies a full range of electrical and solar energy equipment, including high-performance solar panels, transformers, cables, lanterns, and batteries. Our team also handles installation, testing, and commissioning, ensuring every system performs to specification from day one.
+A strong technology strategy does more than reduce risk—it creates room for growth, improves service quality, and supports better decision-making. That is why we focus on practical delivery and measurable impact.
 
-Investing in sustainable energy today is not just good for the environment—it directly strengthens a company's bottom line and long-term competitiveness. We encourage businesses of all sizes to explore the options available and take the first step toward energy independence.`,
-    bodyAm: `ወደ ዘላቂ ኢነርጂ የሚደረገው ዓለም አቀፍ ለውጥ ሩቅ ምኞት አይደለም — ለአፍሪካ እና ከዚያ ባሻገር ለሚገኙ ኢንዱስትሪዎች አፋጣኝ የሥራ እውነታ ሆኗል። ጨምሮ ያለ የነዳጅ ዋጋ፣ የኃይል መስመር አለመረጋጋት እና እያደገ ያለ የአካባቢ ሁኔታ ትጠበቃ ንግዶች ሥራዎቻቸውን እንዴት እንደሚያሞቁ እንደገና እንዲያስቡ እያስገደዳቸው ነው።
+Investing in resilient systems today gives companies a stronger platform for the future and a more confident path to scale.`,
+    bodyAm: `አስተማማኝ ስርዓቶች ዘመናዊ የንግድ አፈጻጸም መሰረት ናቸው። ድርጅቶች ሲያድጉ የመቋረጥ ወጪ፣ ደካማ ግንኙነት እና ያልተረጋጋ መሠረተ ልማት በመቀያየር ይበልጥ ይታያል እና ይበልጥ ውድ ይሆናል።
 
-የፀሐይ ፓነሎች፣ የባትሪ ማከማቻ ስርዓቶች እና ኢነርጂ-ቆጣቢ ጄነሬተሮች ወጪ ቆጣቢነትን እና የሥራ ተቋቋሚነትን ለማስጠበቅ መንገድ ይሰጣሉ። ለምሳሌ፣ የፀሐይ ኃይል ምንጭ ከሚታምን ባትሪ ቤንክ ጋር ያጣመረ ፋብሪካ ከዲዘል ጄነሬተሮች ጥገኝነቱን በከፍተኛ ሁኔታ ቀነስ ማድረግ እና ከመሠረተ ልማት ፍቅ ጊዜ ራሱን መጠበቅ ይችላል።
+የኖብ ቴክኖሎጂስ ፕሊሲ ይህንን መሠረት ከስማርት መፍትሄዎች፣ ጠንካራ አተገባበር እና አስተማማኝ ድጋፍ ጋር ለማጠናከር ይረዳል። በኢነርጂ፣ በግንኙነት፣ በአውቶሜሽን ወይም በዲጂታል መሠረተ ልማት አስፈላጊ ከሆነ እነሆ እንደገና የሚጠናከሩ ስርዓቶችን እናስበርታለን።
 
-ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ ከፍተኛ አፈጻጸም ያላቸው የፀሐይ ፓነሎችን፣ ትራንስፎርመሮችን፣ ኬብሎችን፣ ፋኖሶችን እና ባትሪዎችን ጨምሮ ሙሉ ተከታዩን የኤሌክትሪክ እና የፀሐይ ኢነርጂ መሣሪያዎችን ያቀርባል። ቡድናችን ደግሞ ተከላ፣ ሙከራ እና ሥራ ማስጀመርን ያስተናግዳል፣ ይህም ዕለቱኑ እያንዳንዱ ስርዓት እንደ ዝርዝር ስፔሲፊኬሽን ይሠራ ዘንድ ያረጋግጣል።
+ጠንካራ የቴክኖሎጂ ስትራቴጂ አደጋን ማቃለል ብቻ አይደለም — እድገትን የሚያስተዋውቅ፣ የአገልግሎት ጥራትን የሚያሻሽል እና የተሻለ ውሳኔ ማድረግን የሚደግፍ መድረክ ይፈጥራል። ስለዚህ እኛ በተግባራዊ አተገባበር እና በሚታወቅ ውጤት ላይ እናተኩራለን።
 
-ዛሬ በዘላቂ ኢነርጂ ላይ ኢንቨስት ማድረግ ለአካባቢ ብቻ ጥሩ አይደለም — ቀጥታ የኩባንያ ትርፍ ማግኛ ወሰን እና የረዥም ጊዜ ተወዳዳሪነትን ያጠናክራል። የሁሉም መጠን ያላቸው ንግዶች ያሉ አማራጮችን እንዲያጤኑ እና ወደ ኢነርጂ ነፃነት የሚወስደውን የመጀመሪያ ርምጃ እንዲወስዱ እናበረታታለን።`,
+ዛሬ ተቋቋሚ ስርዓቶችን በመለማመድ የድርጅቶች የወደፊት መሠረት ይጠናከራል እና ለመወዳደር የበለጠ ተስፋ ሰጪ መንገድ ይፈጥራል።`,
   },
   {
-    title: "AAMT's approach to reliable machinery support",
-    titleAm: "ኤኤምቲ ለአስተማማኝ የማሽነሪ ድጋፍ ያለው አቀራረብ",
-    // date: "Jun 10, 2026",
-    // dateAm: "ሰኔ 10፣ 2026",
-    // category: "Operations",
-    // categoryAm: "ሥራ አፈጻጸም",
-    image: "assets/images/blog/3.jpg",
-    body: `Industrial machinery is only as valuable as the support infrastructure around it. A piece of equipment that sits idle due to poor installation, lack of spare parts, or inadequate training quickly becomes a liability rather than an asset.
+    title: "Reliable delivery is the real difference",
+    titleAm: "አስተማማኝ አቅርቦት በእውነተኛ ልዩነት ነው",
+    image: "assets/images/blog/4.jpg",
+    body: `Great ideas only create value when they are delivered well. That is why implementation quality, communication, and post-delivery support matter as much as the technology itself.
 
-AAMT Trading PLC was founded with this principle in mind. We do not simply sell machinery—we provide end-to-end solutions that include careful selection, professional installation, and thorough commissioning. Our technical team works closely with each client to understand their specific production requirements and ensure the machinery integrates seamlessly into their existing operations.
+YENOB Technologies plc was built around that principle. We provide practical solutions that are designed for real operations, with careful delivery and long-term support that keeps systems performing after launch.
 
-After handover, our support does not stop. We maintain relationships with our clients to address any operational questions and assist with sourcing replacement components when needed. This long-term commitment is what sets AAMT apart from transactional equipment suppliers.
+After handover, our support does not stop. We stay connected with our clients to address operational questions, adapt to change, and help maintain dependable performance over time.
 
-Whether you are setting up a new processing line or upgrading existing infrastructure, AAMT has the expertise and the network to deliver the right machinery at the right time—backed by the support that keeps it running.`,
-    bodyAm: `የኢንዱስትሪ ማሽነሪ ያለው ዋጋ በዙሪያው ካለ ድጋፍ መሠረተ ልማት ጋር እኩል ነው። ደካማ ተከላ፣ የመለዋወጫ ዕቃ አለመኖር ወይም በቂ ያልሆነ ስልጠና ምክንያት ሥራ-አልባ ሆኖ የሚቀመጥ የሙያ ዕቃ በፍጥነት ከጠቀሜታ ይልቅ ኃላፊነት ሆኖ ይወጣል።
+Whether you are planning a new rollout or upgrading existing infrastructure, YENOB Technologies brings the expertise and support needed to deliver the right result at the right time.`,
+    bodyAm: `ታላላቅ ሐሳቦች በጥሩ ሁኔታ ሲደርሱ ብቻ ዋጋ ይፈጥራሉ። ስለዚህ የአተገባበር ጥራት፣ የግንኙነት ቅልጥፍና እና ከአቅርቦት በኋላ የሚመጣው ድጋፍ እንዲሁ ቴክኖሎጂ ጋር እኩል አስፈላጊ ናቸው።
 
-ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ ይህን መርህ አስታውሶ ተቋቁሟል። ማሽነሪ ብቻ አንሸጥም — ጥንቃቄ የተሞላ ምርጫ፣ ሙያዊ ተከላ እና ጥልቅ ሥራ ማስጀመርን ያካተቱ ከጀምሮ እስከ ፍፃሜ ድረስ መፍትሄዎችን እናቀርባለን። የቴክኒክ ቡድናችን ከእያንዳንዱ ደንበኛ ጋር በቅርበት ሆኖ ልዩ የምርት ፍላጎቶቻቸውን ለመረዳት እና ማሽነሪው ሲቀናጅ ምንም ሳያቋርጥ ሥራ ውስጥ እንዲካተት ያረጋግጣሉ።
+የኖብ ቴክኖሎጂስ ፕሊሲ ይህን መርህ አስታውሶ ተቋቁሟል። እውነተኛ ሥራ ስርዓቶችን ለማሟላት ተግባራዊ መፍትሄዎችን እናቀርባለን፣ በትክክለኛ አቅርቦት እና ከሥራ አስጀምር በኋላ ስርዓቶቹ እንዲቀጥሉ ተገቢ ድጋፍ እንሰጣለን።
 
-ከሕዝብ ወደ ደንበኛ ፈቃቅ ጊዜ ጀምሮ ድጋፋችን አያቆምም። ማናቸውን የሥራ ጥያቄዎች ለመፍታት እና ሲያስፈልግ መለዋወጫ ዕቃዎችን ለማቅረብ ከደንበኞቻችን ጋር ቀጣዩ ግንኙነት እናቆያለን። ይህ የረዥም ጊዜ ቁርጠኝነት ኤኤምቲን ከሌሎች ተራ የዕቃ አቅራቢዎች ለይቶ የሚያሳይ ነው።
+ከአቅርቦት በኋላ ድጋፋችን አያቆምም። ከደንበኞቻችን ጋር በመቀጠል የሥራ ጥያቄዎችን ለመፍታት፣ ለለውጥ ምላሽ መስጠት እና በጊዜ ሂደት አስተማማኝ አፈጻጸም እንዲቀጥል እንረዳለን።
 
-አዲስ የምርት መስመር እያቋቋሙ ወይም ያለን መሠረተ ልማት እያሻሻሉ ቢሆኑ፣ ኤኤምቲ ትክክለኛውን ማሽነሪ በትክክለኛ ጊዜ ለማድረስ የሚያስፈልገውን ዕውቀት እና አውታር አለው — ሥራውን ቀጣይ የሚያደርጉ ድጋፎች ጋር አብሮ።`,
+አዲስ አቅርቦት እያቀዱ ወይም ነባር መሠረተ ልማት እያሻሻሉ ቢሆኑ፣ የኖብ ቴክኖሎጂስ በትክክለኛ ጊዜ እና በትክክለኛ ውጤት ለማድረስ ያስፈልገውን እውቀት እና ድጋፍ ያቀርባል።`,
   },
 ];
 
@@ -115,7 +103,7 @@ function NavbarSection() {
           <div className="col-lg-12">
             <nav className="navbar navbar-expand-lg">
               <a className="navbar-brand" href="index.html">
-                <img src="assets/images/logo-transparent.png" alt="Logo" />
+                <img src="assets/images/logo-yenob.svg" alt="YENOB Technologies plc" />
               </a>
               <button
                 className="navbar-toggler"
@@ -207,7 +195,7 @@ function SidebarSection() {
         <div className="sidebar-content">
           <div className="sidebar-logo">
             <a href="index.html">
-              <img src="assets/images/logo-transparent.png" alt="Logo" />
+              <img src="assets/images/logo-yenob.svg" alt="YENOB Technologies plc" />
             </a>
           </div>
           <p
@@ -259,17 +247,18 @@ function HeroSection() {
           <div className="col-lg-6 col-md-12 col-12">
             <div className="header-content">
               <h1
-                data-en="Empowering Industries With Quality & Innovation"
-                data-am="ኢንዱስትሪዎችን በጥራት እና በፈጠራ ማብቃት"
+                data-en="Empowering Growth With Technology & Innovation"
+                data-am="እድገትን በቴክኖሎጂ እና በፈጠራ ማብቃት"
               >
-                Empowering Industries With Quality & Innovation
+                Empowering Growth With Technology & Innovation
               </h1>
               <p
-                data-en="Supplying premium goods, advanced technology, and sustainable solutions—locally and globally."
-                data-am="ፕሪሚየም እቃዎችን፣ የላቀ ቴክኖሎጂን እና ዘላቂ መፍትሄዎችን - በአገር ውስጥ እና በዓለም አቀፍ ደረጃ ማቅረብ።"
+                data-en="Delivering dependable digital solutions, smart systems, and implementation support for businesses that want to grow with confidence."
+                data-am="ለንግድ ሥራዎች በእርግጠኝነት የሚያድጉ ዲጂታል መፍትሄዎችን፣ ስማርት ስርዓቶችን እና የአተገባበር ድጋፍን በመስጠት መስራታችን።"
               >
-                Supplying premium goods, advanced technology, and sustainable
-                solutions—locally and globally.
+                Delivering dependable digital solutions, smart systems, and
+                implementation support for businesses that want to grow with
+                confidence.
               </p>
             </div>
           </div>
@@ -394,12 +383,12 @@ function AboutSection() {
               </h6>
               <h2
                 className="main-title fw-bold"
-                data-en="Driven by excellence, we bridge industries with quality products and sustainable solutions, meeting diverse needs locally and globally."
-                data-am="በላቀ ደረጃ በመመራት ኢንዱስትሪዎችን ጥራት ባላቸው ምርቶች እና ዘላቂ መፍትሄዎች እናገናኛለን።"
+                data-en="Driven by excellence, YENOB Technologies connects industries with practical innovation, reliable delivery, and future-ready technology."
+                data-am="በላቀ ደረጃ የሚመራ የኖብ ቴክኖሎጂስ ኢንዱስትሪዎችን ተግባራዊ ፈጠራ፣ አስተማማኝ አቅርቦት እና ወደፊት የሚዘጋጁ ቴክኖሎጂዎች ጋር ያገናኛል።"
               >
-                Driven by excellence, we bridge industries with quality products
-                and sustainable solutions, meeting diverse needs locally and
-                globally.
+                Driven by excellence, YENOB Technologies connects industries
+                with practical innovation, reliable delivery, and future-ready
+                technology.
               </h2>
               <div className="about-five-tab">
                 <nav>
@@ -456,12 +445,12 @@ function AboutSection() {
                     aria-labelledby="nav-who-tab"
                   >
                     <p
-                      data-en="To become a globally recognized leader in industrial excellence, fostering sustainable growth and innovation across every sector we serve."
-                      data-am="በዓለም አቀፍ ደረጃ በኢንዱስትሪ ላቀነት ቀዳሚ እንደሆን እና በእኛ የምንገልጹት ሁሉም ዘርፎች ላይ ዘላቂ እድገት እና ፈጠራ እንድናሳድግ መስራት።"
+                      data-en="To become a globally trusted technology partner that helps businesses grow through innovation, dependable delivery, and lasting impact."
+                      data-am="በዓለም አቀፍ ደረጃ ታመነ የቴክኖሎጂ አጋር ሆኖ በፈጠራ፣ በአስተማማኝ አቅርቦት እና በዘላቂ ተጽእኖ ንግዶችን እንዲያሳድጉ መስራት።"
                     >
-                      To become a globally recognized leader in industrial
-                      excellence, fostering sustainable growth and innovation
-                      across every sector we serve.
+                      To become a globally trusted technology partner that helps
+                      businesses grow through innovation, dependable delivery,
+                      and lasting impact.
                     </p>
                   </div>
                   <div
@@ -471,12 +460,12 @@ function AboutSection() {
                     aria-labelledby="nav-vision-tab"
                   >
                     <p
-                      data-en="To deliver reliable, high-quality products and services that empower industries, strengthen supply chains, and support long-term progress."
-                      data-am="ኢንዱስትሪዎችን እንበረታታለን፣ የአቅርቦት ሰንሰለቶችን እናጠናክራለን እና የረዥም ጊዜ እድገትን እንደግፋ ከፍተኛ ጥራት ያላቸውን ምርቶች እና አገልግሎቶች መስጠት።"
+                      data-en="To deliver reliable technology solutions and services that empower organizations, strengthen operations, and support long-term progress."
+                      data-am="ድርጅቶችን እንበረታታለን፣ ሥራ አፈጻጸምን እናጠናክራለን እና የረዥም ጊዜ እድገትን የሚደግፉ አስተማማኝ ቴክኖሎጂ መፍትሄዎች እና አገልግሎቶች መስጠት።"
                     >
-                      To deliver reliable, high-quality products and services
-                      that empower industries, strengthen supply chains, and
-                      support long-term progress.
+                      To deliver reliable technology solutions and services that
+                      empower organizations, strengthen operations, and support
+                      long-term progress.
                     </p>
                   </div>
                   <div
@@ -523,10 +512,11 @@ function ServicesSection() {
                   What we do
                 </h2>
                 <p
-                  data-en="Empowering Industries with Quality Services and Innovation."
-                  data-am="ኢንዱስትሪዎችን በጥራት አገልግሎት እና በፈጠራ ማብቃት።"
+                  data-en="Empowering businesses with practical technology, dependable delivery, and future-ready solutions."
+                  data-am="ንግዶችን ተግባራዊ ቴክኖሎጂ፣ አስተማማኝ አቅርቦት እና ወደፊት የሚዘጋጁ መፍትሄዎች ጋር ማብቃት።"
                 >
-                  Empowering Industries with Quality Services and Innovation.
+                  Empowering businesses with practical technology, dependable
+                  delivery, and future-ready solutions.
                 </p>
               </div>
             </div>
@@ -566,18 +556,18 @@ function CallToActionSection() {
           <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
             <div className="inner-content">
               <h2
-                data-en="We love to make perfect solutions for your business"
-                data-am="ለንግድዎ ፍጹም መፍትሄዎችን መስራት እንወዳለን።"
+                data-en="We love to build practical solutions for your business"
+                data-am="ለንግድዎ ተግባራዊ መፍትሄዎችን መስራት እንወዳለን።"
               >
-                We love to make perfect <br />
+                We love to build practical <br />
                 solutions for your business
               </h2>
               <p
-                data-en="Partner with us for reliable supply chain solutions and innovative industrial technologies tailored to your growth."
-                data-am="ለእድገትዎ ተብለው በተዘጋጁ አስተማማኝ የአቅርቦት ሰንሰለት መፍትሄዎች እና አዳዲስ የኢንዱስትሪ ቴክኖሎጂዎች ከእኛ ጋር አጋር ይሁኑ።"
+                data-en="Partner with us for dependable technology delivery, smart systems, and implementation support tailored to your growth."
+                data-am="ለእድገትዎ ተብለው በተዘጋጁ አስተማማኝ ቴክኖሎጂ አቅርቦት፣ ስማርት ስርዓቶች እና የአተገባበር ድጋፍ ከእኛ ጋር አጋር ይሁኑ።"
               >
-                Partner with us for reliable supply chain solutions and
-                innovative industrial technologies tailored to your growth.
+                Partner with us for dependable technology delivery, smart
+                systems, and implementation support tailored to your growth.
               </p>
               <div className="light-rounded-buttons">
                 <a
@@ -853,10 +843,10 @@ function ContactSection() {
                         Mon - Fri 9AM - 5PM
                       </p>
                       <p
-                        data-en="Sat - Sun 9AM - 1PM"
-                        data-am="ቅዳሜ - እሁድ ከጠዋቱ 3 ሰዓት - 7 ሰዓት"
+                        data-en="Sat 9AM - 1PM, Sun Closed"
+                        data-am="ቅዳሜ 9 ሰዓት - 1 ሰዓት፣ እሁድ ዝግ"
                       >
-                        Sat - Sun 9AM - 1PM
+                        Sat 9AM - 1PM, Sun Closed
                       </p>
                     </div>
                   </div>
@@ -994,28 +984,29 @@ function FooterSection() {
                   className="footer-brand d-flex align-items-center"
                 >
                   <img
-                    src="assets/images/logo-transparent.png"
-                    alt="AAMT Trading PLC"
+                      src="assets/images/logo-yenob.svg"
+                    alt="YENOB Technologies plc"
                     className="me-2"
                   />
                   <div>
                     <h4
                       className="mb-0"
-                      data-en="AAMT Trading"
-                      data-am="ኤኤምቲ ትሬዲንግ"
+                      data-en="YENOB Technologies"
+                      data-am="የኖብ ቴክኖሎጂስ"
                     >
-                      AAMT Trading
+                      YENOB Technologies
                     </h4>
                   </div>
                 </a>
                 <p
                   className="mt-3"
-                  data-en="AAMT Trading PLC specializes in offering cutting-edge industrial solutions, raw materials, and machinery. We empower organizations with robust and sustainable technology."
-                  data-am="ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ ዘመናዊ የኢንዱስትሪ መፍትሄዎችን፣ ጥሬ ዕቃዎችን እና ማሽነሪዎችን በማቅረብ ላይ ያተኩራል። ድርጅቶችን በጠንካራ እና ዘላቂ ቴክኖሎጂ እናበረታታለን።"
+                  data-en="YENOB Technologies plc specializes in delivering practical technology solutions, digital infrastructure, and implementation support that help organizations grow with confidence."
+                  data-am="የኖብ ቴክኖሎጂስ ፕሊሲ ተግባራዊ ቴክኖሎጂ መፍትሄዎችን፣ ዲጂታል መሠረተ ልማትን እና የአተገባበር ድጋፍን በመስጠት ድርጅቶች በእርግጠኝነት እንዲያድጉ ይረዳል።"
                 >
-                  AAMT Trading PLC specializes in offering cutting-edge
-                  industrial solutions, raw materials, and machinery. We empower
-                  organizations with robust and sustainable technology.
+                  YENOB Technologies plc specializes in delivering practical
+                  technology solutions, digital infrastructure, and
+                  implementation support that help organizations grow with
+                  confidence.
                 </p>
               </div>
             </div>
@@ -1032,10 +1023,10 @@ function FooterSection() {
                     <i className="lni lni-alarm-clock"></i> Mon - Fri 9AM - 5PM
                   </li>
                   <li
-                    data-en="Sat - Sun 9AM - 1PM"
-                    data-am="ቅዳሜ - እሁድ ከጠዋቱ 3 ሰዓት - 7 ሰዓት"
+                    data-en="Sat 9AM - 1PM, Sun Closed"
+                    data-am="ቅዳሜ 9 ሰዓት - 1 ሰዓት፣ እሁድ ዝግ"
                   >
-                    <i className="lni lni-alarm-clock"></i> Sat - Sun 9AM - 1PM
+                    <i className="lni lni-alarm-clock"></i> Sat 9AM - 1PM, Sun Closed
                   </li>
                 </ul>
               </div>
@@ -1048,20 +1039,20 @@ function FooterSection() {
                 <ul className="social-links">
                   <li>
                     <a
-                      href="https://facebook.com/aamt-trading"
+                      href="https://facebook.com/yenobtechnologies"
                       aria-label="Facebook"
                     >
                       <i className="lni lni-facebook-filled"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://x.com/aamt-trading" aria-label="X">
+                    <a href="https://x.com/yenobtechnologies" aria-label="X">
                       <i className="lni lni-twitter-original"></i>
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://instagram.com/aamt-trading"
+                      href="https://instagram.com/yenobtechnologies"
                       aria-label="Instagram"
                     >
                       <i className="lni lni-instagram"></i>
@@ -1069,7 +1060,7 @@ function FooterSection() {
                   </li>
                   <li>
                     <a
-                      href="https://linkedin.com/aamt-trading"
+                      href="https://linkedin.com/company/yenob-technologies"
                       aria-label="LinkedIn"
                     >
                       <i className="lni lni-linkedin-original"></i>
@@ -1091,7 +1082,7 @@ function FooterSection() {
                     <i className="lni lni-printer"></i> +251-116-72-48-88
                   </li>
                   <li>
-                    <i className="lni lni-envelope"></i> melkamu@aamtplc.com
+                    <i className="lni lni-envelope"></i> info@yenobtechnologies.com
                   </li>
                   <li
                     data-en="4th Floor, Morning Star Mall, Cameroon St, Addis Ababa, Ethiopia"
@@ -1110,10 +1101,10 @@ function FooterSection() {
         <div className="container text-center">
           <p
             className="mb-0"
-            data-en='Copyright © 2026 AAMT Trading PLC — Developed by <a href="https://solportifolio.vercel.app/">Solomon Adugna</a>'
-            data-am='የቅጂ መብት © 2026 ኤኤምቲ ትሬዲንግ ኃ.የተ.የግ.ማ — በ <a href="https://solportifolio.vercel.app/">ሰለሞን አዱኛ</a> የተገነባ'
+            data-en='Copyright © 2026 YENOB Technologies plc — Developed by <a href="https://solportifolio.vercel.app/">Solomon Adugna</a>'
+            data-am='የቅጂ መብት © 2026 የኖብ ቴክኖሎጂስ ፕሊሲ — በ <a href="https://solportifolio.vercel.app/">ሰለሞን አዱኛ</a> የተገነባ'
           >
-            Copyright © 2026 AAMT Trading PLC — Developed by{" "}
+            Copyright © 2026 YENOB Technologies plc — Developed by{" "}
             <a href="https://solportifolio.vercel.app/">Solomon Adugna</a>
           </p>
         </div>
@@ -1130,7 +1121,7 @@ function AIAssistantSection() {
           className="ai-agent-toggle"
           id="aiAgentToggle"
           type="button"
-          aria-label="Open AAMT assistant"
+          aria-label="Open YENOB Technologies assistant"
           aria-expanded="false"
           aria-controls="aiAgentPanel"
         >
@@ -1145,8 +1136,8 @@ function AIAssistantSection() {
               </span>
               <div>
                 <span className="ai-agent-status"></span>
-                <h3 data-en="AAMT Assistant" data-am="የኤኤምቲ ረዳት">
-                  AAMT Assistant
+                <h3 data-en="YENOB Assistant" data-am="የየኖብ ረዳት">
+                  YENOB Assistant
                 </h3>
                 <p
                   data-en="Ask about products, services, quotes, and contact details."
@@ -1179,10 +1170,10 @@ function AIAssistantSection() {
           <div className="ai-agent-messages" id="aiAgentMessages">
             <div
               className="ai-message ai-message-bot"
-              data-en="Hello, I am the AAMT assistant. Tell me what you need, and I will point you to the right service or contact option."
-              data-am="ሰላም፣ እኔ የኤኤምቲ ረዳት ነኝ። ምን እንደሚፈልጉ ይንገሩኝ፣ እና ወደ ትክክለኛው አገልግሎት ወይም የግንኙነት አማራጭ እመራዎታለሁ።"
+              data-en="Hello, I am the YENOB assistant. Tell me what you need, and I will point you to the right service or contact option."
+              data-am="ሰላም፣ እኔ የየኖብ ረዳት ነኝ። ምን እንደሚፈልጉ ይንገሩኝ፣ እና ወደ ትክክለኛው አገልግሎት ወይም የግንኙነት አማራጭ እመራዎታለሁ።"
             >
-              Hello, I am the AAMT assistant. Tell me what you need, and I will
+              Hello, I am the YENOB assistant. Tell me what you need, and I will
               point you to the right service or contact option.
             </div>
           </div>

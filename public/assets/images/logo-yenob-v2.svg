@@ -1,0 +1,20 @@
+<svg width="360" height="110" viewBox="0 0 360 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="110" rx="24" fill="#071A2F"/>
+  <rect x="12" y="12" width="86" height="86" rx="22" fill="url(#paint0_linear_0_1)"/>
+  <path d="M36 34L54 60L72 34" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54 60V76" stroke="#E0F7FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M32 76H76" stroke="#B7E9FF" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="54" cy="60" r="6" fill="#F8FBFF"/>
+  <path d="M122 38C122 31.4 127.4 26 134 26H146C152.6 26 158 31.4 158 38V50C158 56.6 152.6 62 146 62H134C127.4 62 122 56.6 122 50V38Z" fill="#3DDCFF" fill-opacity="0.22"/>
+  <path d="M128 35L139 54L150 35" stroke="#F8FBFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M139 54V68" stroke="#67E3FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M124 68H154" stroke="#8FFFFF" stroke-width="6" stroke-linecap="round"/>
+  <text x="176" y="50" fill="#F8FBFF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="1.2">YENOB</text>
+  <text x="176" y="77" fill="#3DDCFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="2.5">TECHNOLOGIES</text>
+  <defs>
+    <linearGradient id="paint0_linear_0_1" x1="12" y1="12" x2="98" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2DD4FF"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -18,39 +18,39 @@
   var company = {
     phone: "+251-930-00-04-77",
     officePhone: "+251-116-72-48-88",
-    email: "melkamu@aamtplc.com",
+    email: "info@yenobtechnologies.com",
     address: "4th Floor, Morning Star Mall, Cameroon St, Addis Ababa, Ethiopia",
     hours: "Mon - Fri 9AM - 5PM, Sat - Sun 9AM - 1PM",
   };
 
-  var welcomeMessage = "Hello, I am the AAMT assistant. Tell me what you need, and I will point you to the right service or contact option.";
+  var welcomeMessage = "Hello, I am the YENOB assistant. Tell me what you need, and I will point you to the right service or contact option.";
 
   var responses = [
     {
       terms: ["machinery", "machine", "installation", "commissioning", "equipment"],
-      text: "AAMT supplies industrial machinery and supports installation and commissioning. Share the machine type, capacity, quantity, delivery location, and timeline so the team can prepare the right response.",
+      text: "YENOB Technologies supplies industrial technology solutions and supports implementation and commissioning. Share the system type, capacity, quantity, delivery location, and timeline so the team can prepare the right response.",
     },
     {
       terms: ["solar", "electrical", "generator", "transformer", "cable", "battery", "lantern", "panel"],
-      text: "For electrical and solar needs, AAMT can help with generators, transformers, cables, solar panels, lanterns, batteries, plus installation, testing, and commissioning.",
+      text: "For electrical and digital infrastructure needs, YENOB Technologies can help with smart energy systems, automation hardware, network solutions, and dependable implementation support.",
     },
     {
       terms: ["raw", "material", "finished", "plastic", "pipe", "food", "agro", "petrochemical"],
-      text: "AAMT supplies raw materials and finished products including plastics, pipes, food and agro-industry materials, and petrochemical products.",
+      text: "YENOB Technologies delivers technology products and integrated solutions tailored to modern industries.",
     },
     {
       terms: ["quote", "price", "cost", "proposal", "rfq", "request"],
-      text: "To request a quote, include your product or service need, quantity, specifications, delivery destination, timeline, company name, and phone or email. You can send it through the contact form or email AAMT directly.",
+      text: "To request a quote, include your project need, quantity, specifications, delivery destination, timeline, company name, and phone or email. You can send it through the contact form or email YENOB Technologies directly.",
       action: "contact",
     },
     {
       terms: ["contact", "phone", "email", "call", "reach"],
-      text: "You can contact AAMT at " + company.phone + " or " + company.officePhone + ". Email: " + company.email + ".",
+      text: "You can contact YENOB Technologies at " + company.phone + " or " + company.officePhone + ". Email: " + company.email + ".",
       action: "contact",
     },
     {
       terms: ["address", "location", "office", "map", "where"],
-      text: "AAMT is located at " + company.address + ". The map section near the bottom of the page shows the office location.",
+      text: "YENOB Technologies is located at " + company.address + ". The map section near the bottom of the page shows the office location.",
       action: "map",
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       terms: ["service", "services", "what do you do", "company"],
-      text: "AAMT supports industries through raw materials and finished products, industrial machinery, and electrical or solar energy equipment.",
+      text: "YENOB Technologies supports industries through smart technology solutions, digital infrastructure, integrated systems, and dependable implementation services.",
       action: "services",
     },
   ];
@@ -117,7 +117,7 @@
     }
 
     return {
-      text: "I can help with AAMT services, raw materials, industrial machinery, electrical and solar equipment, quote requests, location, hours, and contact details. Please tell me what product or service you need.",
+      text: "I can help with YENOB Technologies services, technology solutions, implementation support, quote requests, location, hours, and contact details. Please tell me what product or service you need.",
     };
   }
 
@@ -138,7 +138,7 @@
     }
 
     if (message && !message.value) {
-      message.value = "Hello AAMT Trading PLC,\n\nI need assistance with: " + question + "\n\nPlease contact me with more information.";
+      message.value = "Hello YENOB Technologies plc,\n\nI need assistance with: " + question + "\n\nPlease contact me with more information.";
     }
   }
 
